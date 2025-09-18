@@ -5,25 +5,25 @@ int main(){
 
 // Carta 1
     char estado1[30]; // Em char pra aceitar strings
-    char codigo1[5]; // Código da carta, Em char
-    char nome_cidade1[50]; // Nome da cidade, Em char
-    long populacao1; // Valor inteiro, em long para evitar overflow
-    double area1; // Em km², em double (mais seguro que float)
-    double pib1; // Em bilhões de reais, em double
+    char codigo1[5]; // Código da carta, em char
+    char nome_cidade1[50]; // Nome da cidade, em char
+    float populacao1; // Valor inteiro, em float
+    float area1; // Em km², em float
+    float pib1; // Em bilhões de reais, em float
     int pontos_turisticos1; // Número de pontos turísticos, em int
-    double densidade1; // Densidade populacional, em double
-    double pib_per_capita1; // Pib per capita, em double
+    float densidade1; // Densidade populacional, em float
+    float pib_per_capita1; // Pib per capita, em float
 
 // Carta 2
     char estado2[30]; // Em char pra aceitar strings
-    char codigo2[5]; // Código da carta, Em char
-    char nome_cidade2[50]; // Nome da cidade, Em char
-    long populacao2; // Valor inteiro, em long para evitar overflow
-    double area2; // Em km², em double
-    double pib2; // Em bilhões de reais, em double
+    char codigo2[5]; // Código da carta, em char
+    char nome_cidade2[50]; // Nome da cidade, em char
+    float populacao2; // Valor inteiro, em float
+    float area2; // Em km², em float
+    float pib2; // Em bilhões de reais, em float
     int pontos_turisticos2; // Número de pontos turísticos, em int
-    double densidade2; // Densidade populacional, em double
-    double pib_per_capita2; // Pib per capita, em double
+    float densidade2; // Densidade populacional, em float
+    float pib_per_capita2; // Pib per capita, em float
 
 // Preenchendo os dados da primeira carta
 
